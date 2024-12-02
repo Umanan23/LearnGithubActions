@@ -1,0 +1,11 @@
+name: Usama-test-workflow
+on: workflow_dispatch
+
+jobs:
+  first-job-test:
+    runs-on: ubuntu-latest
+    steps:
+     - name: print somthing
+       run: echo "Hello to Github, Usama!"
+     - name: print goodbye
+       run: echo "Ok! bye bye. See you again"
